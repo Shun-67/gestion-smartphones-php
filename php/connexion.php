@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <title>Connexion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./css/connexion.css">
+    <link rel="stylesheet" href="../css/connexion.css">
 </head>
 <body>
 
@@ -70,6 +70,7 @@ if (isset($_GET['erreur'])) {
     <?php endif; ?>
       </div>
       
+      <input type="color" name="color" value="#b00020" style="display: none;">
 
       <button type="submit">Se connecter</button>
     </form>
