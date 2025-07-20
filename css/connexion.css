@@ -1,0 +1,106 @@
+/* Police claire */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f7f8;
+}
+
+/* Conteneur centré */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Carte blanche avec ombre */
+.login-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+/* Titre */
+.login-card h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #222;
+}
+
+/* Champs de formulaire */
+.login-card label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 0.6rem;
+  /* margin-bottom: 1rem; */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #0079d3;
+  box-shadow: 0 0 0 2px rgba(0, 121, 211, 0.2);
+}
+
+/* Bouton stylé */
+.login-card button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #0079d3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-card button:hover {
+  background-color: #0060aa;
+}
+
+/* Message d’erreur */
+.error-message {
+  background-color: #faeaea;
+  color: red;
+  /* padding: 0.7rem; */
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+}
+
+.color-red {
+  color: red;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.register-link a {
+  color: #0079d3;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
